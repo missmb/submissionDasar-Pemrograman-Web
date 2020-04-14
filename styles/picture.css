@@ -1,6 +1,6 @@
-.container {
+.containerP {
+    padding: 13px 10px 10px 10px;
     display: flex;
-    /* flex-wrap: wrap; */
     text-align: center;
 }
 
@@ -17,6 +17,8 @@
     border-radius: 10px;
     margin-bottom: 30px;
 }
+
+
 
 @media screen and (max-width: 400px) {
     .box {
