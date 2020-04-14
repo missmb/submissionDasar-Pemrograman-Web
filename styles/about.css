@@ -1,0 +1,17 @@
+.container{
+    padding: 13px 10px 10px 10px;
+}
+
+.tittle{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.article {
+    display: flex;
+}
+
+.article p{
+    flex-grow: 1;
+}

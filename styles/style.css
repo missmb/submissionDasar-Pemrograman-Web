@@ -1,5 +1,7 @@
 @import "appbar.css";
-@import "profile.css";
+@import "picture.css";
+@import "about.css";
+@import "footer.css";
 
 * {
     padding: 0;
@@ -8,11 +10,18 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 main {
     width: 90%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 32px auto;
+    padding: 20px;
 }
+
+ header {
+    display: inline;
+ }
