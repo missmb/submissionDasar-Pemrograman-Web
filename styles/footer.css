@@ -1,3 +1,30 @@
 footer{
-    background-color: royalblue;
+    background-color: #00c8eb;
+}
+
+.container-footer {
+    /* padding: 13px 10px 10px 10px; */
+    display: flex;
+    /* text-align: center; */
+}
+
+
+.direction{
+    margin: 2vw 1vw 0 19vw ;
+    float: left;
+    width: 100%;
+}
+
+.child-footer{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    /* border-radius: 10px; */
+    float: right;
+    width: 50%;
+    /* padding: 5px; */
+    display: flex;
+
+    /* min-width: 100px; */
+    /* margin: 1vw auto; */
+    flex-direction: column;
+    
 }

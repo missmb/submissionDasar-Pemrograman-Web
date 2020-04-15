@@ -2,11 +2,15 @@
 @import "picture.css";
 @import "about.css";
 @import "footer.css";
+@import "aside.css";
+@import "customer.css";
+@import "fab.css";
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -16,7 +20,7 @@ body {
 }
 
 main {
-    width: 90%;
+    width: 95%;
     max-width: 1000px;
     margin: 32px auto;
     padding: 20px;

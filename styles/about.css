@@ -23,14 +23,20 @@
 
 .two{
 text-align:  center;
+
 }
 
-.tittle{
+.center{
     text-align: center;
     padding-bottom: 5px;
     padding-top: 15px;
+    overflow: hidden;
 }
 
+.font-vw{
+    font-size: 1vw;
+    overflow: hidden;
+}
 .article{
     /* flex-grow: 40%;
     padding: 1px; */
